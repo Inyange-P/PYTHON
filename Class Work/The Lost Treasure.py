@@ -64,6 +64,7 @@ print(len(Items))
 Age = int(input("Enter your age to enter the secret cave: "))
 if Age >= 18:
     print("You are old enough to enter the secret cave!")
+    exit()
 else:
     print("Sorry, you are not old enough to enter the secret cave.")
  
