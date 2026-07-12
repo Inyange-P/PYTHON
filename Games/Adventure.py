@@ -1,4 +1,6 @@
-#Quest 1
+
+
+#Quest 1: The Gate of Numbers
 
 #number = int(input("Enter a number to check if it's even or odd: "))
 #def check_even_odd(number):
@@ -9,7 +11,7 @@
 #check_even_odd(number)
 
 
-# Quest 2
+# Quest 2 :  The Academy Exam
 
 #Mark = int(input("Enter your marks between 0 and 100  to check your grade: "))
 #def check_result(Marks):
@@ -21,7 +23,7 @@
 #     print("You have entered wrong marks. Please enter a valid number between 0 and 100.")
 #check_result(Mark)
 
-#quest 3
+#quest 3 :  The Wizard Grades
 
 #Marks = int(input("Enter your marks between 0 and 100 to check your grade: "))
 #def calculate_grade(Marks):
@@ -39,7 +41,7 @@
 #        print("You have entered wrong marks. Please enter a valid number between 0 and 100.")
 #calculate_grade(Marks)
 
-#Quest 4
+#Quest 4 :  The Village of Ages
 
 #Age = int(input("Enter your age to check your category: "))
 #def Age_category(Age):
@@ -55,49 +57,59 @@
 #Age_category(Age)
 
 
-#quest 5
+#quest 5 :The Magic Calculator
 
-FirstNumber = int(input("Enter the first number: "))
-SecondNumber = int(input("Enter the second number: "))
-print(" Choose The Operation you want to perform: ")
-print("1. Addition")
-print("2. Subtraction")
-print("3. Multiplication")
-print("4. Division")
-Operation = int(input("Enter your choice ( From 1 to 4): "))
-if Operation == 1:
-    def Addition():
-        Result = FirstNumber + SecondNumber
-        print("The result of addition is: ", Result)
-    Addition()
-elif Operation == 2:
-    def Subtraction():
-        if FirstNumber > SecondNumber:
-            print("The first number is Larger than the second number. Please enter a valid number.")
-            Result = FirstNumber - SecondNumber
-            print("The result of subtraction is: ", Result)
-        elif SecondNumber > FirstNumber:
-            Result = SecondNumber - FirstNumber
-            print("The second number is Larger than the first number. Please enter a valid number.")
-            print("The result of subtraction is: ", Result)
-    Subtraction()
-elif Operation == 3:
-    def Multiplication():
-        Result = FirstNumber * SecondNumber
-        print("The result of multiplication is: ", Result)
-    Multiplication()
-elif Operation == 4:
-    def Division():
-        if SecondNumber != 0:
-            Result = FirstNumber / SecondNumber
-            print("The second number is not zero. You can perform division.")
-            print("First Number divide by Second Number.")
-            print("The result of division is: ", Result)
-        else:
-            print("Error: Division by zero is not allowed.")
-        if FirstNumber != 0:
-            Result = SecondNumber / FirstNumber
-            print("The first number is not zero. You can perform division.")
-            print("Second Number divide by First Number.")
-            print("The result of division is: ", Result) 
-    Division()
+#FirstNumber = int(input("Enter the first number: "))
+#SecondNumber = int(input("Enter the second number: "))
+#print(" Choose The Operation you want to perform: ")
+#print("1. Addition")
+#print("2. Subtraction")
+#print("3. Multiplication")
+#print("4. Division")
+#Operation = int(input("Enter your choice ( From 1 to 4): "))
+#if Operation == 1:
+#    def Addition():
+#        Result = FirstNumber + SecondNumber
+#        print("The result of addition is: ", Result)
+#    Addition()
+#elif Operation == 2:
+#    def Subtraction():
+#        if FirstNumber > SecondNumber:
+#            print("The first number is Larger than the second number. Please enter a valid number.")
+#            Result = FirstNumber - SecondNumber
+#            print("The result of subtraction is: ", Result)
+#        elif SecondNumber > FirstNumber:
+#            Result = SecondNumber - FirstNumber
+#            print("The second number is Larger than the first number. Please enter a valid number.")
+#            print("The result of subtraction is: ", Result)
+#    Subtraction()
+#elif Operation == 3:
+#    def Multiplication():
+#        Result = FirstNumber * SecondNumber
+#        print("The result of multiplication is: ", Result)
+#    Multiplication()
+#elif Operation == 4:
+#    def Division():
+#        if SecondNumber != 0:
+#            Result = FirstNumber / SecondNumber
+#            print("The second number is not zero. You can perform division.")
+#            print("First Number divide by Second Number is : ", Result)
+#        else:
+#            print("Error: Division by zero is not allowed.")
+#        if FirstNumber != 0:
+#            Result = SecondNumber / FirstNumber
+#            print("Second Option")
+#            print("The first number is not zero. You can perform division.")
+#            print("Second Number divide by First Number is : ", Result)
+#    Division()
+#else:
+#    print("Invalid choice. Please select a valid operation (1-4).")
+
+
+#Quest 6: Guess the Dragons Secret Number
+
+
+Guess = int(input("Guess the secret number between 1 and 20: "))
+SecretNumber = 7
+def check_guess(SecretNumber, Guess):
+    
