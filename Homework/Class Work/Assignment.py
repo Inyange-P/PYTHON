@@ -38,8 +38,11 @@ CalculateAverage()
 def CalculatePassFail():
     if (Average >= 50):
         print("Status is that You Passed")
-    else:
+    elif (Average < 50):
         print("Status is that You Failed") 
+    else:
+        print("You have entered wrong marks. Please enter a valid number between 0 and 100.")
+
 CalculatePassFail()
         
         

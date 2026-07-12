@@ -4,7 +4,7 @@ print ('The First Number Entered Is ', FirstNumber)
 print ('The Second Number Entered Is ', SecondNumber)
 if (FirstNumber > SecondNumber):
     X = FirstNumber - SecondNumber
-    print ('The final answer iis ', X )
+    print ('The final answer is ', X )
     exit()
 else :
     Answer = SecondNumber - FirstNumber

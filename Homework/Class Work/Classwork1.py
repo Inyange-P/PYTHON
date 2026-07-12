@@ -12,4 +12,4 @@ elif FirstInput < SecondInput :
     print ("The substraction of the two numbers is: ", Substraction)
 else:
     print("Both numbers are equal.")
-    print("The substraction is zero")
+    print("So  The substraction is zero")
